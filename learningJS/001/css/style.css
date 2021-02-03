@@ -55,3 +55,49 @@ img{
     justify-content: space-evenly;
     text-align: center;
 }
+
+li{
+    margin: 0 1rem;
+}
+
+.social-media{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    transition: color 650ms;
+}
+
+.nav-list{
+    color: #444444;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-linkedin-in,
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-github,
+.fa-instagram{
+    color: #444444;
+}
+.fa-facebook-square:hover{
+    color: #4267b2;
+}
+
+.fa-twitter-square:hover{
+    color: #38a1f3;
+}
+
+.fa-linkedin-in:hover{
+    color: #1515ff;
+}
+
+.fa-github:hover{
+    color: #000000a4;
+}
+
+.fa-instagram:hover{
+    color: rgb(179, 20, 47);
+}
