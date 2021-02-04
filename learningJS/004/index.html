@@ -3,15 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <script>
-        var name = window.prompt('What is your name?');
-        document.write(`hello, ${name}. <br>`);
-        document.write(`Your name has ${name.length} letters. <br>`);
-        document.write(`Name: ${name.toUpperCase()} <br>`);
-        document.write(`Name: ${name.toLowerCase()} <br>`);
-    </script>
+    <div class="main">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">D</span>
+                <span class="m-left name">o</span>
+                <span class="m-left name">u</span>
+                <span class="m-left name">g</span>
+                <span class="m-left name">l</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">s</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">v</span>
+                <span class="m-left">e</span>
+                <span class="m-left">l</span>
+                <span class="m-left">o</span>
+                <span class="m-left">p</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="m-left">.</span>
+            </h1>
+            <p>C/C++ / Python / Java / CAD</p>
+            <a href="#contact">contact me</a>
+        </div>
+        <div class="profile-image">
+            <img src="img/profile.png" alt="">
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <h1>About</h1>
+        <div class="about-me-info">
+            <p>Highly focused and motivated Electrical Service Technician with ten years of experience in the sector. Qualified in Mechatronics, I have been employed with ENERCON as technician during the last eight years working in wind farms to provide maintenance for wind turbines and giving support to other departments such as Installation, Mechanical Maintenance and IT when required. During this period I had the opportunity of being involved in several activities, which I had carried out within the wind farm since the commissioning until the operation.</p>
+            <p>Working under pressure is a routine for me. I work well in a team and I am conscious about the influence of my responsibilities on my team to fulfill the goals and the customer’s expectations. I am very enthusiastic about improving myself and developing new skills.</p>
+            <p>I also pride myself on building a robust robot (AGV – Automated Guided Vehicle) from scratch as my final project which gave me the opportunity to improve my skills in mechanical CAD design, electronics project and coding for embedded systems and mobile.</p>
+        </div>
+        <img src="img/dotted-shape.png" alt="">
+    </div>
+    
+    <div class="contact" id="contact">
+        <h1>Contact</h1>
+        <form>
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="douglalsimab@gmail.com" disabled>
+            <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+
+    <footer>
+        <hr>
+        <p><small>2021 Copyright. All Rights Reserved.</small></p>
+    </footer>
+<!--    <script src="js/script.js"></script> -->
 </body>
 </html>
