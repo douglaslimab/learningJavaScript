@@ -132,12 +132,14 @@ span.m-left{
 }
 
 .about h1{
+    margin-left: 50px;
     font-size: 10rem;
     z-index: 0;
     opacity: .1;
 }
 
-.about-me-info{
+.about-me-info,
+.contact-box{
     max-width: 900px;
     background-color: #252627;
     box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
@@ -166,6 +168,7 @@ span.m-left{
 }
 
 .contact h1{
+    margin-right: 50px;
     text-align: right;
     font-size: 10rem;
     opacity: .1;
