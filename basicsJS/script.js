@@ -4,7 +4,7 @@ function calc(){
     var op = document.querySelector("#operator").value;
     var calculate;
 
-    if (op == "add"){
+    if (op == "add"){   
         calculate = a + b;
     } else if(op == "min"){
         calculate = a - b;
